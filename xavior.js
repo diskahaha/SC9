@@ -541,7 +541,7 @@ Ga Butuh Pulsa/Dana Bwang :v` }, { quoted: m })
             case 'subscribe':{
             smeme = fs.readFileSync('./video/bro.mp4')
 
-xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g`},{ quoted: m })} break
+xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtu.be/l6ED3FtkStc`},{ quoted: m })} break
 
 case 'runtime': { m.reply('4 days, 9 hours, 26 minutes')}
           break
@@ -1230,7 +1230,7 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -1269,7 +1269,7 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2801,7 +2801,7 @@ let capt = `⭔ Title: ${judul}
             case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `AzzBot Siap membantu anda\n`,
+                    title: `𝕭𝖔𝖙 • Andii ༢࿔ྀ Siap membantu anda\n`,
                     description: "*Klik tombol dibawah*",
                     buttonText: "Menu",
                     footerText: "Note:JANGAN SPAM!!",
@@ -2926,12 +2926,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             
              case 'menu': {
             anu = `── *Welcome* ──
-Hai Saya Bot Wa
-Siap Melayani Anda
-Ketik (.menu) Untuk Mengakses
-Mau Script? Bisa Chat Owner
-Thanks Sudah Menggunakan.
-Nih Musik Buat Menghibur
+Kenapa Bebek Kaki Nya Dua? 
+Karna Kau Wibu :v 
+Ketik .menu Untuk Menampilkan Fitur
 ───────⭓`
             let btn = [{
                                 
@@ -3292,7 +3289,7 @@ F•𝐌𝐃
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3359,7 +3356,7 @@ F•𝐌𝐃
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3414,7 +3411,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3475,7 +3472,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3531,7 +3528,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3595,7 +3592,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3673,7 +3670,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3732,7 +3729,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3788,7 +3785,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3849,7 +3846,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3926,7 +3923,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -3991,7 +3988,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -4048,7 +4045,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -4103,7 +4100,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -4153,7 +4150,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -4204,7 +4201,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -4262,7 +4259,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
@@ -4323,7 +4320,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtu.be/l6ED3FtkStc'
                                 }
                             }, {
                                 callButton: {
