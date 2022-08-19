@@ -157,13 +157,13 @@ async function startxavior() {
                 }
 
                 if (anu.action == 'add') {
-                    xavior.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                    xavior.sendMessage(anu.id, mentions: [num], caption: `Intro Jelek @${num.split("@")[0]}` })
                 } else if (anu.action == 'remove') {
-                    xavior.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    xavior.sendMessage(anu.id, mentions: [num], caption: `@${num.split("@")[0]} Yahaha Si Jelek Out` })
                 } else if (anu.action == 'promote') {
-                    xavior.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
+                    xavior.sendMessage(anu.id, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
                 } else if (anu.action == 'demote') {
-                    xavior.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Demote From ${metadata.subject}` })
+                    xavior.sendMessage(anu.id, mentions: [num], caption: `@${num.split('@')[0]} Demote From ${metadata.subject}` })
               }
             }
         } catch (err) {
