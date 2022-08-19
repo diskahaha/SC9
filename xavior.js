@@ -2807,7 +2807,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: "Note:JANGAN SPAM!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By MBY•OFFICIAL🤖",
+								"title": "🤖Bot By 𝕭𝖔𝖙 • Andii ༢࿔ྀ🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2909,7 +2909,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Owner 👨‍💻",
 								"rows": [
 									{
-										"title": "MBY•OFFICIAL",
+										"title": "𝕭𝖔𝖙 • Andii ༢࿔ྀ",
 										"rowId": `${prefix}owner`
 									
 									}]
@@ -2922,7 +2922,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 
             
-            case 'okay': { m.reply('Subrek lah Yt MBY•OFFICIAL')} break
+            case 'okay': { m.reply('Satu Dua Tutup Botol, Kau Wibu :v')} break
             
              case 'menu': {
             anu = `── *Welcome* ──
@@ -2933,7 +2933,7 @@ Ketik .menu Untuk Menampilkan Fitur
             let btn = [{
                                 
                                 quickReplyButton: {
-                                    displayText: '✰➪Daftar Fitur',
+                                    displayText: '✰➪ Menu',
                                     id: 'command'
                             }    }, {quickReplyButton: {
                                     displayText: 'Thanks👌',
