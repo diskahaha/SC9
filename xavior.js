@@ -534,20 +534,9 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
-│⭔ 1 Minggu :10k
-│⭔ 1 Bulan :15k
-│⭔ Permanen :20k
-└───────⭓
-┌──⭓ *Jadi Bot*
-│⭔ Jasa Jadi Bot: 30k
-│⭔ Jadi Owner AzzBot: 15k
-└───────⭓
-┌──⭓ *Harga Sc Bot Wa*
-│⭔ Versi 1 :20k
-│⭔ Versi 2 :25k
-│⭔ Free :Di Yt MBY•OFFICIAL
-└───────⭓` }, { quoted: m })
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
+Ga Butuh Pulsa/Dana Bwang :v` }, { quoted: m })
             }
             case 'subscribe':{
             smeme = fs.readFileSync('./video/bro.mp4')
@@ -1246,7 +1235,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1632,7 +1621,7 @@ break
            
            case 'tutor': {
            let yts = require("yt-search")
-                let search = await yts('https://youtu.be/yZ1TEsTeE_k')
+                let search = await yts('https://youtu.be/ys4RpDOJ-7U')
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
                     {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '♫ Audio'}, type: 1},
@@ -1641,15 +1630,12 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-⭔ *Title* : Tutor Buat Bot Seperti Di Gc 🗿
-⭔ *No Wa*: 081511480762
-⭔ *Duration* : 24Hours
-⭔ *Viewers* : 14M views
-⭔ *Upload* At : 1 years ago
-⭔ *Author* : MBY•OFFICIAL 
-⭔ *Channel* : ${anu.author.url}
-⭔ *Description* : Gak Subrek Bot Mati!
-⭔ *Url* : ${anu.url}`,
+⭔ *Title* : Tutor Comli🗿
+⭔ *No Wa*: -
+⭔ *Duration* : -
+⭔ *Viewers* : -
+⭔ *Upload* At : -
+⭔ *Author* : -`,
                     footer: global.author,
                     buttons: buttons,
                     headerType: 4
@@ -2944,9 +2930,7 @@ Hai Saya Bot Wa
 Siap Melayani Anda
 Ketik (.menu) Untuk Mengakses
 Mau Script? Bisa Chat Owner
-Thanks Sudah Menggunakan
-AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Thanks Sudah Menggunakan.
 Nih Musik Buat Menghibur
 ───────⭓`
             let btn = [{
@@ -2978,10 +2962,10 @@ break
  case 'allmenu': {
                 anu = `
 
-┌──⭓ *𝘈𝘻𝘻𝘉𝘰𝘵•𝘔𝘋*
-│⭔ 𝘖𝘸𝘯𝘦𝘳:𝗬𝗮𝗵𝘆𝗮 
+┌──⭓ *F•𝘔𝘋*
+│⭔ 𝘖𝘸𝘯𝘦𝘳: F 
 │⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: 4.0
-│⭔ 𝘙𝘶𝘯𝘝𝘪𝘢:𝘏𝘦𝘳𝘰𝘬𝘶
+│⭔ 𝘙𝘶𝘯𝘝𝘪𝘢: Oktetod
 └───────⭓
 
 
@@ -3303,8 +3287,8 @@ break
 │
 └───────⭓
 
-𝐀𝐳𝐳𝐁𝐨𝐭•𝐌𝐃
-𝐁𝐲:𝐘𝐚𝐡𝐲𝐚𝐆𝐚𝐧𝐳𝐳|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
+F•𝐌𝐃
+𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
@@ -3313,11 +3297,11 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3327,7 +3311,7 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3380,11 +3364,11 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3394,7 +3378,7 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3435,11 +3419,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3449,7 +3433,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3496,11 +3480,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: 'あ☕',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3510,7 +3494,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3552,11 +3536,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3566,7 +3550,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3616,11 +3600,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3630,7 +3614,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3694,11 +3678,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3708,7 +3692,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3753,11 +3737,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3767,7 +3751,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3809,11 +3793,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3823,7 +3807,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3870,11 +3854,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3884,7 +3868,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -3947,11 +3931,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -3961,7 +3945,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4012,11 +3996,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4026,7 +4010,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4069,11 +4053,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4083,7 +4067,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4124,11 +4108,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4138,7 +4122,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4174,11 +4158,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4188,7 +4172,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4225,11 +4209,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4239,7 +4223,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4283,11 +4267,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4297,7 +4281,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
@@ -4344,11 +4328,11 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 821-2208-76725'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '✰➪Tutor',
+                                    displayText: '✰',
                                     id: 'tutor'
                                 }
                             }, {
@@ -4358,7 +4342,7 @@ case 'webzone': {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Like👍..',
+                                    displayText: '👍..',
                                     id: 'subscribe'
                                 }
                             }]
