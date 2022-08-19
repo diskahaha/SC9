@@ -12,22 +12,22 @@ global.APIKeys = {
 }
 
 // NAMBAH BOLEH HAPUS JANGAN -_-
-global.owner = ['6281511480762']
-global.premium = ['621511480762']
-global.packname = 'AzzBot√'
-global.author = 'AzzBot-MD'
+global.owner = ['62821220876725']
+global.premium = ['62821220876725']
+global.packname = '𝕭𝖔𝖙 • Andii あ√'
+global.author = '𝕭𝖔𝖙 • Andii あ'
 global.sessionName = 'Xavior'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '✓ Success',
+    success: 'Sukses Mek ✓',
     admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    wait: 'Sabar Mek...',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
