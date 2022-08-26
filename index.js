@@ -142,11 +142,11 @@ async function startxavior() {
             let metadata = await xavior.groupMetadata(anu.id)
             let participants = anu.participants
             for (let num of participants) {
-                // Get Profile Picture Group
+                // Get Profile Picture User
                 try {
-                    ppgroup = await xavior.profilePictureUrl(anu.id, 'image')
+                    ppuser = await xavior.profilePictureUrl(num, 'image')
                 } catch {
-                    ppgroup = 'https://tinyurl.com/yx93l6da'
+                    ppuser = 'https://tinyurl.com/yx93l6da'
                 }
 
                 if (anu.action == 'add') {
