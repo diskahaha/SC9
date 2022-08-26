@@ -151,8 +151,6 @@ async function startxavior() {
 
                 // Get Profile Picture Group
                 try {
-                    ppgroup = await xavior.profilePictureUrl(anu.id, 'image')
-                } catch {
                     ppgroup = 'https://tinyurl.com/yx93l6da'
                 }
 
